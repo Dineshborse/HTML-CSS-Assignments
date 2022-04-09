@@ -1,7 +1,131 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+#page_header {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+}
+#head_block {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  background-color: lightskyblue;
+}
+#logo {
+  margin-left: 50px;
+  align-self: center;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+#search_box {
+  margin-right: 40px;
+  align-self: center;
+  border: 1px solid black;
+}
+#navbar {
+  display: block;
+  justify-content: center;
+  border: 1px solid black;
+  /* margin: 10px; */
+}
+#navItemList {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navItems {
+  display: inline-block;
+  /* margin-right: 20px;
+    margin-left: 20px; */
+}
+#contentDiv {
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+#aside_left {
+  height: auto;
+  width: 20%;
+  /* float: left; */
+  border: 1px solid black;
+}
+#asideLeftItemList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.asideLeftItems {
+  /* border: 1px solid black; */
+  margin: 10px;
+  /* margin-right: 15px; */
+  padding: 5px;
+  text-align: center;
+  /* align-self: center; */
+}
+#main-content-section {
+  height: 100%;
+  width: 56%;
+  /* margin: 10px; */
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.sectionContentDiv {
+  height: fit-content;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 1%;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.post-img {
+  flex-wrap: wrap;
+  height: 50%;
+  width: 25%;
+  border: 1px solid red;
+}
+#aside_right {
+  height: auto;
+  width: 20%;
+  /* float: rig; */
+  border: 1px solid black;
+}
+#right-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+#page-footer {
+  width: auto;
+  height: fit-content;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
 }
